@@ -1,0 +1,9 @@
+node_modules       # Exclude the node_modules directory
+.git               # Exclude Git version control files
+.gitignore
+bun.lockb
+
+*.log              # Exclude all .log files (e.g., debug.log, error.log)
+logs               # Exclude logs directory if you have one
+.DS_Store          # macOS-specific hidden files
+.vscode            # Exclude Visual Studio Code project settings folder
